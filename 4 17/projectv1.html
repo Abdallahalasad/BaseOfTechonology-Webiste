@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base of Technology | Tech Store</title>
+  <link rel="icon" type="image/png" href="imagesv1/Main-Logo.png">
+  <link rel="stylesheet" href="project.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <p class="Location">
+    <a href="https://maps.app.goo.gl/1r5S8haxGwXpo9m96" target="_blank">📍 Store Location</a> |
+    <a href="Pages/Login.html">👤 My Account</a>
+  </p>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="header-row">
+      <div class="logo-row">
+        <a href="projectv1.html">
+          <img src="imagesv1/Main-Logo.png" alt="Base of technology" class="site-logo">
+        </a>
+        <div class="logo-text">All You Need for Tech</div>
+      </div>
+      <div class="support-info">
+        <p>🎧 Support: 00 000 000</p>
+        <p>✉️ baseoftechnology@gmail.com</p>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="hamburger-menu">
+          <button class="hamburger-btn">☰ Categories</button>
+          <div class="dropdown-menu" id="dropdownMenu">
+            <a href="Pages/Deals.html">🔥 Hot Deals</a>
+            <a href="Pages/Keyboards.html">⌨️ Keyboards & Mice</a>
+            <a href="Pages/Motherboard.html">🖥️ Motherboards</a>
+            <a href="Pages/Laptops.html">💻 Laptops</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-center">
+        <form class="search-form" action="search_results.html" method="GET">
+          <input type="text" name="q" class="search-input" placeholder="Search tech, brands, deals...">
+          <button type="submit" class="search-button">🔍</button>
+        </form>
+      </div>
+
+      <div class="nav-right">
+        <span class="nav-icon-btn" title="Language">🌐</span>
+        <span class="nav-icon-btn" title="Wishlist">❤️</span>
+        <span class="nav-icon-btn cart-btn" title="Cart">🛍️ <span class="cart-count">0</span> items</span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">New Arrivals 2025</p>
+      <h1 class="hero-title">Power Your <span class="hero-accent">Tech Life</span></h1>
+      <p class="hero-sub">Laptops, motherboards, peripherals & more — all in one place.</p>
+      <div class="hero-actions">
+        <a href="Pages/Laptops.html" class="btn-primary">Shop Now</a>
+        <a href="Pages/Deals.html" class="btn-outline">View Deals 🔥</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-circle">
+        <span class="badge-num">500+</span>
+        <span class="badge-label">Products</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Quick Links -->
+  <section class="quick-cats">
+    <a href="Pages/Laptops.html" class="cat-pill">💻 Laptops</a>
+    <a href="Pages/Motherboard.html" class="cat-pill">🖥️ Motherboards</a>
+    <a href="Pages/projectv1.html" class="cat-pill">⌨️ Keyboards</a>
+    <a href="Pages/Deals.html" class="cat-pill deal-pill">🔥 Hot Deals</a>
+  </section>
+
+  <main class="container">
+
+    <!-- Hot Deals -->
+    <section class="category-group">
+      <div class="section-header">
+        <a href="Pages/Deals.html">Hot Deals 🔥</a>
+        <div class="arrows">
+          <span class="arrow-icon">⬅️</span>
+          <span class="arrow-icon">➡️</span>
+        </div>
+      </div>
+      <div class="p-grid">
+        <div class="p-card deal-card">
+          <div class="deal-badge">-15%</div>
+          <img src="imagesv1/macbook-pro-14-inch-m3-silver.png" alt="MacBook Pro Deal" class="p-img">
+          <h3 class="p-title">MacBook Pro 14" M3</h3>
+          <p class="p-price"><span class="old-price">1,199$</span> 999$</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="p-card deal-card">
+          <div class="deal-badge">-25%</div>
+          <img src="imagesv1/msi-pro_b760m-e_ddr4-3d2.png" alt="MSI Motherboard Deal" class="p-img">
+          <h3 class="p-title">MSI Pro B760M-E DDR4</h3>
+          <p class="p-price"><span class="old-price">120$</span> 92$</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keyboards & Mice -->
+    <section class="category-group">
+      <div class="section-header">
+        <a href="Pages/projectv1.html">Keyboards & Mice</a>
+        <div class="arrows">
+          <span class="arrow-icon">⬅️</span>
+          <span class="arrow-icon">➡️</span>
+        </div>
+      </div>
+      <div class="p-grid">
+        <p class="coming-soon">⌨️ New stock arriving soon — check back!</p>
+      </div>
+    </section>
+
+    <!-- Motherboards -->
+    <section class="category-group">
+      <div class="section-header">
+        <a href="Pages/Motherboard.html">Motherboards</a>
+        <div class="arrows">
+          <span class="arrow-icon">⬅️</span>
+          <span class="arrow-icon">➡️</span>
+        </div>
+      </div>
+      <div class="p-grid">
+        <div class="p-card">
+          <img src="imagesv1/msi-pro_b760m-e_ddr4-3d2.png" alt="Motherboard" class="p-img">
+          <h3 class="p-title">MSI Pro B760M-E DDR4</h3>
+          <p class="p-price">92.0$</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="p-card">
+          <img src="imagesv1/msi-meg_z790_ace_max_3d2_rgb.webp" alt="Motherboard" class="p-img">
+          <h3 class="p-title">MSI MEG Z790 ACE MAX</h3>
+          <p class="p-price">540.0$</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Laptops -->
+    <section class="category-group">
+      <div class="section-header">
+        <a href="Pages/Laptops.html">Laptops</a>
+        <div class="arrows">
+          <span class="arrow-icon">⬅️</span>
+          <span class="arrow-icon">➡️</span>
+        </div>
+      </div>
+      <div class="p-grid">
+        <div class="p-card">
+          <img src="imagesv1/macbook-pro-14-inch-m3-silver.png" alt="Laptop" class="p-img">
+          <h3 class="p-title">MacBook Pro 14" M3</h3>
+          <p class="p-price">999$</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="p-card">
+          <img src="imagesv1/Hp pavilion .jpg" alt="Laptop" class="p-img">
+          <h3 class="p-title">HP Pavilion Gaming</h3>
+          <p class="p-price">850$</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="p-card">
+          <img src="imagesv1/Lenovo Legion Pro 5i Gen 10 16 Gaming Laptop (2025 Model).webp" alt="Laptop" class="p-img">
+          <h3 class="p-title">Lenovo Legion 5 Pro</h3>
+          <p class="p-price">1,731$</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Base of Technology</h4>
+        <p>Your one-stop shop for all things tech in Lebanon.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="Pages/Deals.html">Hot Deals</a>
+        <a href="Pages/Laptops.html">Laptops</a>
+        <a href="Pages/Motherboard.html">Motherboards</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>📍 <a href="https://maps.app.goo.gl/1r5S8haxGwXpo9m96" target="_blank">View on Map</a></p>
+        <p>🎧 00 000 000</p>
+        <p>✉️ baseoftechnology@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Base of Technology. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
